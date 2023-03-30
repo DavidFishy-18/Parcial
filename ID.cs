@@ -46,7 +46,7 @@ namespace Parcial
         private void ID_Load(object sender, EventArgs e)
         {
             leerC("Ciudadanos.txt");
-            for (int i = 0; i < p.Count; i++) comboBox1.Items.Add(p[i].Dpi);
+            for (int i = 0; i < p.Count; i++) comboBox1.Items.Add(p[i].Nombre);
             comboBox1.SelectedIndex = 0;
         }
 
