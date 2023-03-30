@@ -16,7 +16,7 @@ namespace Parcial
         public ID()
         {
             InitializeComponent();
-            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList; comboBox1.SelectedIndex = 0;
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -47,6 +47,7 @@ namespace Parcial
         {
             leerC("Ciudadanos.txt");
             for (int i = 0; i < p.Count; i++) comboBox1.Items.Add(p[i].Dpi);
+            comboBox1.SelectedIndex = 0;
         }
 
         private void guardarD(string fileName)
