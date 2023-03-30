@@ -16,7 +16,7 @@ namespace Parcial
         public ID()
         {
             InitializeComponent();
-            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList; comboBox1.SelectedIndex = 0;
         }
 
         private void button2_Click(object sender, EventArgs e)
